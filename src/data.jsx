@@ -47,7 +47,7 @@ export const popularProducts = [
   },
   {
     id: 2,
-    img: "https://cdn.shopify.com/s/files/1/0101/4832/products/Angela_Natural_Tee.png?v=1606780388",
+    img: "https://www.prada.com/content/dam/pradabkg_products/U/UCS/UCS438/1VIUF0T38/UCS438_1VIU_F0T38_S_231_SLF.jpg/_jcr_content/renditions/cq5dam.web.hebebed.1000.1000.jpg",
   },
   {
     id: 3,
@@ -55,7 +55,7 @@ export const popularProducts = [
   },
   {
     id: 4,
-    img: "https://www.burdastyle.com/pub/media/catalog/product/cache/7bd3727382ce0a860b68816435d76e26/107/BUS-PAT-BURTE-1320516/1170x1470_BS_2016_05_132_front.png",
+    img: "https://www.prada.com/content/dam/pradabkg_products/S/SC5/SC502/1WQ8F0002/SC502_1WQ8_F0002_S_201_SLF.jpg/_jcr_content/renditions/cq5dam.web.hebebed.1000.1000.jpg",
   },
   {
     id: 5,
@@ -67,7 +67,7 @@ export const popularProducts = [
   },
   {
     id: 7,
-    img: "https://www.vintageindustries.nl/download_front/qympzk1762/2217_Arrow_Jacket_Forest.png",
+    img: "https://www.prada.com/content/dam/pradabkg_products/U/UCS/UCS414/12UEF0076/UCS414_12UE_F0076_S_221_SLF.jpg/_jcr_content/renditions/cq5dam.web.hebebed.1000.1000.jpg",
   },
   {
     id: 8,
