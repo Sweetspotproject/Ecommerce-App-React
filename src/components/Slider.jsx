@@ -50,7 +50,7 @@ const ImgContainer = styled.div`
 `;
 
 const Image = styled.img`
-  height: 85%;
+  height: 90%;
 `;
 
 const InfoContainer = styled.div`

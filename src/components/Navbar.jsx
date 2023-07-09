@@ -1,12 +1,11 @@
 import Badge from "@mui/material/Badge";
 import { Search, ShoppingCartOutlined } from "@mui/icons-material";
-import React from "react";
 import styled from "styled-components";
-// import constructWithOptions from "styled-components/dist/constructors/constructWithOptions";
 
 const Container = styled.div`
   height: 60px;
   background-color: 1;
+  margin-bottom: 15px;
 `;
 
 const Wrapper = styled.div`
