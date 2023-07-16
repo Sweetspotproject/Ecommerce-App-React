@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import {mobile} from "../responsive"
+import {mobile} from "../responsive.js"
 
 const Container = styled.div`
   width: 100vw;
@@ -10,15 +10,17 @@ const Container = styled.div`
     ),
     url("https://images.pexels.com/photos/999303/pexels-photo-999303.jpeg?auto=compress&cs=tinysrgb&w=1600")
       center;
+  background-size: cover;
 
   display: flex;
   align-items: center;
   justify-content: center;
 `;
 const Wrapper = styled.div`
-  width: 40%;
+  width: 25%;
   padding: 20px;
   background-color: white;
+
   ${mobile({width: "75%"})}
 `;
 
@@ -29,19 +31,14 @@ const Title = styled.h1`
 
 const Form = styled.form`
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
 `;
 
 const Input = styled.input`
   flex: 1;
   min-width: 40%;
-  margin: 20px 10px 0px 0px;
+  margin: 10px 0px;
   padding: 10px;
-`;
-
-const Agreements = styled.span`
-  font-size: 16px;
-  margin: 20px 0px;
 `;
 
 const Button = styled.button`
@@ -49,31 +46,33 @@ const Button = styled.button`
   border: none;
   padding: 15px 20px;
   background-color: teal;
-  color: #2d3437; 
+  color: white;
+  cursor: pointer;
+  margin-bottom: 10px;
+`;
+
+const Link = styled.a`
+  margin: 5px;
+  font-size: 14px;
+  text-decoration: underline;
   cursor: pointer;
 `;
 
-const Register = () => {
+const login = () => {
   return (
     <Container>
       <Wrapper>
-        <Title>CRATE AN ACCOUNT</Title>
+        <Title>SIGN IN</Title>
         <Form>
-          <Input placeholder="Name" type="text" />
-          <Input placeholder="Last Name" type="text" />
           <Input placeholder="Username" type="text" />
-          <Input placeholder="Email" type="email" />
           <Input placeholder="Password" type="password" />
-          <Input placeholder="Confirm Password" type="password" />
-          <Agreements>
-            By creating an account, I consent to the processing of my personal
-            data as described in the <b>Privacy Policy</b>.
-          </Agreements>
-          <Button>Sign Up</Button>
+          <Button>LOG IN</Button>
+          <Link>FORGOT YOUR PASSWORD?</Link>
+          <Link>CREATE AN ACCOUNT</Link>
         </Form>
       </Wrapper>
     </Container>
   );
 };
 
-export default Register;
+export default login;
